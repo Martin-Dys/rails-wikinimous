@@ -1,0 +1,9 @@
+<%= form_for(@article) do |f| %>
+  <%= f.label "choose your title" %>
+  <%= f.text_field :title %>
+
+  <%= f.label "put a content please" %>
+  <%= f.text_area :content %>
+
+  <%= f.submit %>
+<% end %>
